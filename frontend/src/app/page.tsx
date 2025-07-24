@@ -331,12 +331,9 @@ export default function ReciLoop(): JSX.Element {
     <nav className="bg-gradient-to-r from-gray-900 to-gray-800 text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-4">
-            <div className="flex items-center">
-              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center">
-                <Leaf className="w-6 h-6 text-white" />
-              </div>
-              <span className="ml-2 text-xl font-bold">ReciLoop</span>
+          <div className="flex items-center">
+            <div className="flex items-center hover:opacity-90 transition-all">
+              <img src="/logo.svg" alt="Logo ReciLoop" className="w-40 h-40" />
             </div>
           </div>
 

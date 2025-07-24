@@ -15,6 +15,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Reciloop",
   description: "Seu marketplace de insumos!",
+  icons: {
+    icon: [
+      {
+        url: "/icon.svg",
+        sizes: "32x32",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/icon.svg",
+        sizes: "16x16",
+        type: "image/svg+xml",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
