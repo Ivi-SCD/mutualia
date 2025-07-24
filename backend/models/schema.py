@@ -41,10 +41,8 @@ class ESGScore(BaseModel):
     total_savings: float
     co2_avoided: float
 
-class ROICalculation(BaseModel):
+class ROICalculationInput(BaseModel):
     waste_type: str
     volume: float
     disposal_cost: float
     market_price: float
-    potential_profit: float
-    payback_days: int
